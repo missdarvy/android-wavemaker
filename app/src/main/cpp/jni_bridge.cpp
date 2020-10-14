@@ -16,6 +16,8 @@
 #include <jni.h>
 #include <android/input.h>
 #include "AudioEngine.h"
+#include "jni_bridge.h"
+
 
 static AudioEngine *audioEngine = new AudioEngine();
 
